@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: inherit;
+}
+
+/* header ------------------------------------------------------ */
+
+.header-white
+{
+height: 100px;
+background-color: steelblue;
+display:flex;
+justify-content: flex-end;
+align-items:flex-end;
+transition: 0.2s;
+} 
+
+.header-dark
+{
+height: 100px;
+background-color: rgb(66, 60, 60);
+display:flex;
+justify-content: flex-end;
+align-items:flex-end;
+transition: 0.2s;
+} 
+
+/* body ------------------------------------------------------ */
+.cuerpo-white
+{
+    background-color:white;
+}
+.cuerpo-dark
+{
+background-color:darkslategray ;
+}
+
+
+/* boton caja ------------------------------------------------------ */
+.caja-Boton 
+{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(173, 176, 179);
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-radius:10px;   
+}
+
+.caja-Boton-dark
+{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(173, 176, 179);
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    border-radius:10px;   
+}
+
+/* boton ------------------------------------------------------ */
+
+.boton-white
+{
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    transition: 0.6s;
+    background-color: rgb(63, 64, 65);
+    color:white;
+}
+
+.boton-dark
+{
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    transition: 0.6s;
+    background-color: rgb(252, 253, 255);
+    color:rgb(8, 8, 8);
+}
+
+
+
+/* cubo--------------------------------------------------------- */
+
+#cuboid:hover
+{
+ box-shadow: 0px 0px 10px 10px rgb(85, 252, 8) ;
+}
+.cubo
+{
+    background-color:crimson;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1
+{
+    transform: rotateX(10deg);
+    transition: all 1s;
+}
+.cubo-w
+{
+    background-color:rgb(65, 65, 209);
+    font-size: 30px;
+    transform: translate(500px, 150px) scale(250%) rotate(360deg);
+    color:white;
+    padding: 10px;
+}
+
